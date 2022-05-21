@@ -1,0 +1,107 @@
+/* CSS Document */
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background-image: url(brno/backa.jpg);
+    display: grid;
+    
+    }
+/*Hlava*/    
+    header{
+      grid-column: 1/4;
+      grid-row: 1/2;
+      text-align: center;
+      background: black;
+      color: white;
+    }
+/*Navigacni pole*/    
+    nav {
+      margin-left:0px;
+      grid-column: 1/2;
+      grid-row: 2/4;
+      }   
+    nav a {
+      color: yellow;
+      background: black;
+      text-decoration: none;
+      font-family: sans-serif;    
+      padding: 5px 10px;
+      line-height: 2;
+      }
+    nav a:visited {
+      color: rgb(237, 209, 248);
+      background: black;
+      }
+     nav a:hover {
+      color: white;
+      background: gray;
+      }
+     nav a:active {
+      color: white;
+      background: red;
+      }
+
+/*Text Nadpisy*/
+     h1 {    
+      text-align: center;
+      color: rgb(237, 209, 248);
+      }
+    
+     h2 { 
+      margin-left: 10px; 
+      color: rgb(237, 209, 248);
+      }
+
+     h3{ 
+      margin-left: 10px; 
+      color: rgb(237, 209, 248);
+      }
+
+/*Text text*/
+     p {
+      margin-left: 10px;
+      color: rgb(237, 209, 248);
+      }
+
+/*Text Tabulka*/
+    th {
+      color: rgb(237, 209, 248); 
+     }
+/*Text Tabulka 2*/
+li {
+  color: rgb(237, 209, 248); 
+ }
+
+     
+    table{
+      margin: 0 auto;
+      border: 5px;
+
+    }
+
+    section{
+     grid-column:2/3;
+     grid-row: 2/3;
+
+    }
+    
+    article{
+     grid-column:2/4;
+     grid-row: 3/4;
+     background-color: rgb(48, 24, 105);
+     border-style: ridge;
+     border-color: blueviolet;
+     border-width: 15px;
+     margin: 0px;
+    }
+/*Pata*/    
+    footer {
+      grid-column: 1/4;
+      grid-row: 4/5;
+      color: rgb(237, 209, 248);
+      background: black;
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 20px;
+      padding: 10px;
+    }
